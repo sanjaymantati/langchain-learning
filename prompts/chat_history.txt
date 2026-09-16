@@ -1,0 +1,6 @@
+HumanMessage(content="Hello") 
+AIMessage(content="Hello! How can I assist you today?") 
+HumanMessage(content="Which one is bigger 5 or 20?") 
+AIMessage(content="20 is bigger than 5.") 
+HumanMessage(content="multipy the smaller with 21") 
+AIMessage(content="The smaller number between 5 and 20 is 5. If you multiply 5 by 21, the result is 105.") 

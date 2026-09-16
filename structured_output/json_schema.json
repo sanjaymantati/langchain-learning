@@ -1,0 +1,54 @@
+{
+  "title": "review-schema",
+  "type": "object",
+  "properties": {
+    "key_themes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Write down all key themes in the review."
+    },
+    "summary": {
+      "type": "string",
+      "description": "A brief summary"
+    },
+    "sentiment": {
+      "type": "string",
+      "enum": [
+        "positive",
+        "negative",
+        "neutral"
+      ],
+      "description": "Return sentiment of the review either negative, positive, or neutral"
+    },
+    "good": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "Return good review"
+    },
+    "bad": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "Return bad review"
+    }
+  },
+  "required": [
+    "key_themes",
+    "summary",
+    "sentiment",
+    "good",
+    "bad"
+  ],
+  "additionalProperties": false
+}
