@@ -28,3 +28,4 @@ torch
 
 sentence-transformers
 streamlit
+grandalf
