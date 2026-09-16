@@ -1,5 +1,5 @@
 ## Resource
-1. Folder: ```structured_output```
+1. Folder: ```structured_output.output_parser```
 
 
 
@@ -53,6 +53,3 @@
 ### 4. Additional Parsers & Compatibility
 * **Other Parsers in LangChain**: The library also offers parsers such as `CommaSeparatedListOutputParser`, `DatetimeOutputParser`, `EnumOutputParser`, `XMLOutputParser`, `MarkdownListOutputParser`, and `OutputFixingParser`.
 * **Model Flexibility**: All code examples and parser implementations work across commercial API models (OpenAI, Claude, Gemini) and open-source models (Hugging Face, TinyLlama, Gemma).
-```
-
-💡 Would you like a runnable Python script demonstrating how to set up the `PydanticOutputParser` inside a LangChain pipeline?
