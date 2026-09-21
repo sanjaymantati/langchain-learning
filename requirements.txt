@@ -1,6 +1,7 @@
 # LangChain Core
 langchain
 langchain-core
+langchain-community
 
 # OpenAI Integration
 langchain-openai
@@ -29,3 +30,5 @@ torch
 sentence-transformers
 streamlit
 grandalf
+pypdf
+beautifulsoup4
